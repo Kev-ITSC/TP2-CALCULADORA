@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 260px;
+    gap: 1px;
+}
+
+.contenedor .item{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.contenedor .item:hover{
+    background-color: blue;
+    cursor: pointer;
+}
